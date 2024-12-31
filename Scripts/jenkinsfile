@@ -1,0 +1,30 @@
+pipeline {
+    agent any 
+
+    stages {
+        stage ('git '){
+            steps {
+                sh 'git --version'
+        }
+    
+       }
+      
+        stage ('docker '){
+            steps {
+                sh 'docker ps'
+            }
+
+        }
+    
+        stage ( 'kubctl '){
+
+            steps {
+                sh 'kubectl version --client'
+            }
+        }
+
+    }
+
+
+
+}
