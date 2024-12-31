@@ -1,0 +1,4 @@
+STEPS:
+1- vim jenkins-server.sh
+2- copy and paste the script  then type  wq
+3- sh jenkins-server.sh
