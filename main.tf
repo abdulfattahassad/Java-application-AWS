@@ -13,7 +13,7 @@ provider "aws" {
 
 
 
-resource "aws_instance" "nexus_Instance and sonar instance" {
+resource "aws_instance" "nexusandsonarinstance" {
   ami           =  var.ami
   instance_type =  var.instance_type
   count = var.count
