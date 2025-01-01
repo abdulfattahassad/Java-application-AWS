@@ -15,7 +15,7 @@ variable "instance_type" {
   default = "t2.micro"
 }
 
-variable "count" {
+variable "number" {
   description = "number of ec2"
   default = 2
 }
