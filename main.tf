@@ -19,7 +19,7 @@ resource "aws_instance" "nexusandsonarinstance" {
   count = var.number
 }
 
-resource "aws_key_pair" "key_pair" {
-  key_name   = var.keypair1           
+resource "aws_key_pair" "keys" {
+  key_name   = var.keys          
   public_key = file("~/.ssh/id_rsa.pub") 
 }
