@@ -21,7 +21,3 @@ variable "number" {
 }
 
 
-variable "keys" {
-  description = "keypair1"
-  default = "keypair1"
-}
