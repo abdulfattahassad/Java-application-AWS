@@ -19,3 +19,9 @@ variable "number" {
   description = "number of ec2"
   default = 2
 }
+
+
+variable "keypair1" {
+  description = "keypair1"
+  default = keypair1
+}
